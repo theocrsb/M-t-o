@@ -14,12 +14,13 @@ user.addEventListener("change", () => {
       TempsParis.innerHTML = `<img src="${data.fcst_day_0.icon_big}" alt="logo representant le temps actuel">`;
       let temperatureParis = document.getElementById("temperature");
       temperatureParis.innerHTML = `${data.current_condition.tmp}°C`;
+      temperatureParis.style.textShadow = " 1px 0px 2px grey";
       let tempmin = document.getElementById("min");
       let tempmax = document.getElementById("max");
       tempmin.innerHTML = `| min : ${data.fcst_day_0.tmin}°C |`;
       tempmax.innerHTML = `| max : ${data.fcst_day_0.tmax}°C |`;
-      tempmin.style.color = `blue`;
-      tempmax.style.color = `red`;
+      tempmin.style.color = `#9BCFF8`;
+      tempmax.style.color = `#FE815B`;
       let conditiontoday = document.getElementById("condition");
       conditiontoday.innerHTML = `${data.current_condition.condition}`;
     });
