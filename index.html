@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Météo</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="choice">
+        <label for="name">Choisissez une ville de France</label>
+
+        <input type="text" id="name" name="name" required />
+      </div>
+    </header>
+    <section>
+      <div class="meteoParis">
+        <h1 id="ville"></h1>
+        <p id="temps"></p>
+        <p id="temperature"></p>
+      </div>
+    </section>
+  </body>
+</html>

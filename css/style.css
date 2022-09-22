@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(29, 29, 29);
+}
+
+h1,
+p {
+  color: rgb(0, 0, 0);
+}
+
+section {
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.meteoParis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+#temperature {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0.2;
+  margin-top: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+  margin: 0.5em;
+  margin-bottom: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.choice label {
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+}
